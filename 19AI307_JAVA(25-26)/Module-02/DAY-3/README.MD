@@ -37,7 +37,7 @@ To write a Java program that defines a class BankAccount with private attributes
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Access Specifiers using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -96,3 +96,4 @@ public class prog {
 
 ## RESULT:
 Therfore the program successfully stores account details using setter methods and retrieves them using getter methods.
+
