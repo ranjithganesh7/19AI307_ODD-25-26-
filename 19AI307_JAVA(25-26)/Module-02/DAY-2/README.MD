@@ -25,7 +25,7 @@ To write a Java program that defines a method cube(int x) which internally calls
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Methods using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -66,3 +66,4 @@ public class main
 
 ## RESULT:
 Therefore the program successfully computes the cube of a number by internally using the square method.
+
