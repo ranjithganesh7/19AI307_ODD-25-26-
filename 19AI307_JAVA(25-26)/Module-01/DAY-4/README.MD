@@ -28,7 +28,7 @@ To write a Java program that reads an array of integers and finds the index of a
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Array concept using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -70,3 +70,4 @@ public class Main {
 
 ## RESULT:
 Therefore the program successfully searches the array for the given element.
+
