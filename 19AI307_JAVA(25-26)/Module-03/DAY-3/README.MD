@@ -37,7 +37,7 @@ To write a Java program using an abstract class GameScore with subclasses Arcade
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Abstraction using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -98,3 +98,4 @@ public class prog {
 
 ## RESULT:
 The program successfully demonstrates abstraction and inheritance by computing the final score for different game types using subclass-specific logic.
+
