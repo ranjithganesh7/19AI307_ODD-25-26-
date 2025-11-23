@@ -24,7 +24,7 @@ To write a Java program using looping statements to print a right-angled triangl
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Looping Statement using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -62,3 +62,4 @@ public class TrianglePattern
 
 ## RESULT:
 Thus, the Java program using looping statements to print a right-angled triangle star pattern was successfully written, executed, and verified.
+
