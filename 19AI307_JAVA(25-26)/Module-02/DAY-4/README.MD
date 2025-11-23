@@ -33,7 +33,7 @@ To write a Java program that initializes object variables using a constructor an
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Variable scope and Constructor using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -82,3 +82,4 @@ public class StudentDemo {
 
 ## RESULT:
 Therefore the program successfully creates a student object using the constructor.
+
