@@ -1,30 +1,32 @@
-# Ex.No:2(E) ACCESS MODIFIERS
+# Ex.No:2(D) VARIABLE SCOPE AND CONSTRUCTOR
 
 ## QUESTION:
-Create a class Employee with method display(). Inside display(), return the current object using this. Create another method that calls display().printName()
-
+Write a class that uses a constructor to initialize variables and overrides toString() method.
 
 ## AIM:
-To create an Employee class where the display() method returns the current object using this, and demonstrate calling display().printName() from another method.
+To write a Java program that initializes object variables using a constructor and overrides the toString() method to display object details in a readable format.
 
 ## ALGORITHM :
-1. Create a class Employee with a variable name.
 
-2. Write a method setName() to assign value to name.
+1. Define a class Student with two instance variables:
 
-3. Write a method display() that returns the current object using return this;.
+     String name
 
-4. Write a method printName() to print the employee name.
+     int age
 
-5. Add another method show() that internally calls display().printName().
+2. Create a parameterized constructor to initialize these variables.
 
-6. In the main() method, read the employee name from the user.
+3. Override the toString() method to return the student details in a formatted string.
 
-7.Create an Employee object and set the name.
+4. In the main() method:
 
-8. Call both display().printName() and show() to demonstrate method chaining.
+    - Read the name and age from the user.
 
+    - Create a Student object using the constructor.
 
+5. Print the object, which automatically calls the overridden toString() method.
+
+6. End the program.
 
 
 
@@ -38,42 +40,45 @@ Register Number:212223060222
 ```
 
 ## SOURCE CODE:
-```
+
+```java
 import java.util.Scanner;
 
-class Employee {
+class Student {
     String name;
+    int age;
 
-    void setName(String name) {
-        this.name = name;  
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
-    Employee display() {
-        return this;  
-    }
-
-    void printName() {
-        System.out.println("Employee Name: " + name);
+    @Override
+    public String toString() {
+        return "Student{name='" + name + "', age=" + age + "}";
     }
 }
 
-class prog {
+public class StudentDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String inputName = scanner.nextLine();
+        String name = scanner.nextLine();
+        int age = scanner.nextInt();
 
-        Employee emp = new Employee();
-        emp.setName(inputName);
-        emp.display().printName();  
+        Student student = new Student(name, age);
+        System.out.println(student.toString());
     }
 }
 ```
+
+
 
 
 ## OUTPUT:
+<img width="896" height="395" alt="image" src="https://github.com/user-attachments/assets/0b280b01-a09a-4749-b733-41411f01b00a" />
 
-<img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/954fafa4-a638-4044-b666-3322017194cd" />
+
 
 
 ## RESULT:
-Therefore the program successfully returns the current object using this inside the display() method.
+Therefore the program successfully creates a student object using the constructor.
