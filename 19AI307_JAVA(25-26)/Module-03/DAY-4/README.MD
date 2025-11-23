@@ -29,7 +29,7 @@ To implement weather prediction using interfaces with two bots — SunBot and Ra
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Interface using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -88,3 +88,4 @@ public class Main {
 
 ## RESULT:
 The program predicts weather conditions using interface implementation and method overriding.
+
