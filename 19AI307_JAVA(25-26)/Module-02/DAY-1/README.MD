@@ -29,7 +29,7 @@ To define a class Car with attributes brand, color, and year; create two objects
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Class and Objects using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -83,3 +83,4 @@ class prog {
 
 ## RESULT:
 Therefore,the program successfully creates two Car objects and assigns values to their attributes.
+
