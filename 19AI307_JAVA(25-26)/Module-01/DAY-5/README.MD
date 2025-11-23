@@ -21,7 +21,7 @@ To write a Java program that finds the absolute value of a given number using th
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Strings and Math Function using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -50,3 +50,4 @@ public class demo
 
 ## RESULT:
 Therefore the program successfully reads a number and calculates its absolute value.
+
