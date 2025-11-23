@@ -25,7 +25,7 @@ To create a Java program demonstrating method overriding by defining a base clas
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Polymorphism using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -96,4 +96,5 @@ public class TestVehicles {
 
 ## RESULT:
 Therefore the  program successfully demonstrates method overriding by applying different speed increase behaviors for car and bicycle.
+
 
