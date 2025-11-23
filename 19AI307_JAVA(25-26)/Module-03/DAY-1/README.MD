@@ -51,7 +51,7 @@ To build an inheritance-based Java program that calculates the final price of go
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a Inheritance and Aggregation using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -183,3 +183,4 @@ public class GoldRateSystem {
 
 ## RESULT:
 Therefore the program successfully applies different discount rules for regular and premium customers.
+
