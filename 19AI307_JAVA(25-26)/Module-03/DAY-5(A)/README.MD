@@ -16,7 +16,7 @@ To demonstrate accessing an inner class from an outer class in Java.
 ## PROGRAM:
  ```
 /*
-Program to implement a conditional statement using Java
+Program to implement a InnerClass using Java
 Developed by: Ranjith Ganesh B.
 Register Number:212223060222
 */
@@ -63,3 +63,4 @@ public class Main {
 
 ## RESULT:
 The program successfully accesses and prints data from the inner class using the outer class.
+
